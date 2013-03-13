@@ -6,19 +6,19 @@ jaded
 Use vanilla jade templates in your language of choice, via a node
 server that produces jade for you.
 
-> Once upon a midnight weary
-> While I coded, caffinated, very
-> Over many a quine
-> but hankering for javascript more
->
-> Then I thought it, addiction trapping
-> suddenly jade templates were attracting
-> As the pale clones were mocking,
-> failing me in need once more
->
-> "Tis' served templates," I muttered
-> "transferring from some local port -
->     Only this and nothing more"
+    Once upon a midnight weary
+    While I coded, caffinated, very
+    Over many a quine
+    but hankering for javascript more
+
+    Then I thought it, addiction trapping
+    suddenly jade templates were attracting
+    As the pale clones were mocking,
+    failing me in need once more
+
+    "Tis' served templates," I muttered
+    "transferring from some local port -
+        Only this and nothing more"
 
 
 USAGE
@@ -58,9 +58,9 @@ does involve interprocess communication: if it only has a small
 multiple of a speed drop compared to native methods, it might be able
 to be lived with.
 
-> Even in winter
-> clings the need to optimize
-> really, fast enough
+    Even in winter
+    clings the need to optimize
+    really, fast enough
 
 
 LICENSE

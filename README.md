@@ -1,6 +1,3 @@
-NOTE: this project is not actually under development yet, but I wanted
-to write down my ideas. Here they are.
-
 jaded
 ================================================================================
 Use vanilla jade templates in your language of choice, via a node

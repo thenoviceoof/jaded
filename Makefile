@@ -1,2 +1,2 @@
 all:
-	iced -c jaded.coffee
+	iced -c jaded.iced

@@ -1,5 +1,6 @@
 net = require 'net'
 jade = require 'jade'
+fs = require 'fs'
 
 server = net.createServer (c) ->
         console.log 'connected'
@@ -10,8 +11,13 @@ server = net.createServer (c) ->
                 console.log 'disconnect'
 
         c.on 'data', (data) ->
-                template = jade.compile(data.toString())
-                html = template()
+                request = JSON.parse data
+                console.log request
+                await fs.readFile request.template, defer err, template
+                console.log template.toString()
+
+                template_obj = jade.compile(template.toString())
+                html = template_obj()
                 c.write html
 
 server.listen 8080, () ->
